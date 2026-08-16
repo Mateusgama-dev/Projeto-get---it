@@ -1,0 +1,54 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #edf2f7; /* Fundo levemente azulado/cinza */
+  color: #2d3748; /* Texto escuro mais suave que o preto absoluto */
+}
+
+img {
+  width: 150px;
+  border-radius: 8px; /* Cantos arredondados na imagem */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Espaçamento um pouco maior entre os campos */
+  margin: 30px 0;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px; /* Campos de texto com cantos arredondados */
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background: #4299e1; /* Botão azul moderno */
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease; /* Efeito suave ao passar o mouse */
+}
+
+input[type="submit"]:hover {
+  background: #3182ce; /* Azul mais escuro no hover */
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 12px;
+  padding: 16px;
+  background: #ffffff; /* Fundo branco para destacar do body */
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra bem sutil */
+}
