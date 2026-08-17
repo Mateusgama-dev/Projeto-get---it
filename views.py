@@ -7,9 +7,11 @@ def index():
     note_template = load_template('components/note.html')
     
     notes_li = [
-        note_template.format(title=title, details=content)
+
+        note_template.format(id = i, title=title, details=content)
         for i ,title , content in load_data()
     ]
+
 
     notes = '\n'.join(notes_li)
     return load_template('index.html').format(notes=notes)
